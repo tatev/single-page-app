@@ -18,7 +18,6 @@ head
     // WARNING: Respond.js doesn't work if you view the page via file://
     //if lt IE 9
       script(src='https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js')
-      |
       script(src='https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js')
     body#page-top.index
         // Navigation
@@ -31,7 +30,8 @@ head
                         span.icon-bar
                         span.icon-bar
                         span.icon-bar
-                    a.navbar-brand(href='#page-top') Company Name
+                    img.ronc-logo(src='img/ronclogo.png', alt='')
+                    a.navbar-brand(href='#page-top') РОНЦ
                 // Collect the nav links, forms, and other content for toggling
                 #bs-example-navbar-collapse-1.collapse.navbar-collapse
                     ul.nav.navbar-nav.navbar-right
@@ -50,10 +50,11 @@ head
             .container
                 .row
                     .col-lg-12
-                        img.img-responsive.photo(src='img/photo.jpg', alt='')
+                        //img.img-responsive.photo(src='img/photo.jpg', alt='')
+                        img.img-responsive.photo(src='img/image2.jpg')
                         .intro-text
-                            span.name Company Name
-                            span.skills Speciality - Positions
+                            span.name Российский онкологический научный центр им. Н. Н. Блохина
+                            span.skills Федеральное государственное бюджетное научное учреждение
         // Portfolio Grid Section
         section#portfolio
             .container

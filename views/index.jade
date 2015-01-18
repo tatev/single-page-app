@@ -31,18 +31,18 @@ head
                         span.icon-bar
                         span.icon-bar
                     img.ronc-logo(src='img/ronclogo.png', alt='')
-                    a.navbar-brand(href='#page-top') РОНЦ
+                    a.navbar-brand(href="#page-top") ФБГНУ»РОНЦ им.Н.Н.Блохина»
                 // Collect the nav links, forms, and other content for toggling
                 #bs-example-navbar-collapse-1.collapse.navbar-collapse
                     ul.nav.navbar-nav.navbar-right
                         li.hidden
                             a(href='#page-top')
                         li.page-scroll
-                            a(href='#portfolio') Portfolio
+                            a(href='#about') Об отделении
                         li.page-scroll
-                            a(href='#about') About
+                            a(href='#portfolio') Хобби
                         li.page-scroll
-                            a(href='#contact') Contact
+                            a(href='#contact') Контакты
                 // /.navbar-collapse
             // /.container-fluid
         // Header
@@ -51,81 +51,78 @@ head
                 .row
                     .col-lg-12
                         //img.img-responsive.photo(src='img/photo.jpg', alt='')
-                        img.img-responsive.photo(src='img/image2.jpg')
+                        img.img-responsive.photo(src='img/hayrapet_sedrakyan_square.jpg', style="width:300px")
                         .intro-text
-                            span.name Российский онкологический научный центр им. Н. Н. Блохина
-                            span.skills Федеральное государственное бюджетное научное учреждение
-        // Portfolio Grid Section
-        section#portfolio
+                            span.name Седракян Айрапет Ншанович
+                            span.skills К.м.н., Заведующий отделением ортопедической стоматологии
+        // About Section
+        section#about
             .container
                 .row
                     .col-lg-12.text-center
-                        h2 Portfolio
+                        h2 Об отделении
                         hr
+                .row
+                    .col-lg-8.col-lg-offset-2
+                        h4 
+                            | С 199Х года Отделением руководит, кандидат медицинских наук, автор многочисленных патентов Седракян А.Н..
+                        p
+                            | Отделение занимается изготовлением сложных челюстно-лицевых протезов,аппаратов,обтураторов,эктопротезов лица, а так же полных съемных, частично съемных и современных несъёмных протезов.
+        // Portfolio Grid Section
+        section#portfolio.success
+            .container
+                .row
+                    .col-lg-12.text-center
+                        h2 Хобби
+                        hr(style="border-color: #fff;")
                 .row
                     .col-sm-4.portfolio-item
                         a.portfolio-link(href='#portfolioModal1', data-toggle='modal')
                             .caption
                                 .caption-content
                                     i.fa.fa-search-plus.fa-2x
-                            img.img-responsive(src='img/portfolio/sculture1 Cropped.jpg', alt='')
+                            img.img-responsive(src='img/portfolio/sculpture00_rotated.jpg', alt='')
                     .col-sm-4.portfolio-item
                         a.portfolio-link(href='#portfolioModal2', data-toggle='modal')
                             .caption
                                 .caption-content
                                     i.fa.fa-search-plus.fa-2x
-                            img.img-responsive(src='img/portfolio/sculture2 Cropped.jpg', alt='')
-                    .col-sm-4.portfolio-item
-                        a.portfolio-link(href='#portfolioModal3', data-toggle='modal')
-                            .caption
-                                .caption-content
-                                    i.fa.fa-search-plus.fa-2x
-                            img.img-responsive(src='img/portfolio/sculture3 Cropped.jpg', alt='')
-                    .col-sm-4.portfolio-item
-                        a.portfolio-link(href='#portfolioModal4', data-toggle='modal')
-                            .caption
-                                .caption-content
-                                    i.fa.fa-search-plus.fa-2x
-                            img.img-responsive(src='img/portfolio/sculture4 Cropped.jpg', alt='')
-                    .col-sm-4.portfolio-item
-                        a.portfolio-link(href='#portfolioModal5', data-toggle='modal')
-                            .caption
-                                .caption-content
-                                    i.fa.fa-search-plus.fa-2x
-                            img.img-responsive(src='img/portfolio/sculture5 Cropped.jpg', alt='')
-                    .col-sm-4.portfolio-item
-                        a.portfolio-link(href='#portfolioModal6', data-toggle='modal')
-                            .caption
-                                .caption-content
-                                    i.fa.fa-search-plus.fa-2x
-                            img.img-responsive(src='img/portfolio/sculture6 Cropped.jpg', alt='')
-        // About Section
-        section#about.success
-            .container
-                .row
-                    .col-lg-12.text-center
-                        h2 About
-                        hr
-                .row
-                    .col-lg-4.col-lg-offset-2
-                        p
-                            | Fusce vel porta enim. Curabitur non auctor metus, a sollicitudin dui. Curabitur tempus euismod ornare. Quisque nec scelerisque nisi. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis a fermentum neque, a malesuada quam. Etiam quis lacinia erat.
-                    .col-lg-4
-                        p
-                            | Fusce vel porta enim. Curabitur non auctor metus, a sollicitudin dui. Curabitur tempus euismod ornare. Quisque nec scelerisque nisi. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis a fermentum neque, a malesuada quam. Etiam quis lacinia erat.
+                            img.img-responsive(src='img/portfolio/sculpture01_rotated.jpg', alt='')
         // Contact Section
         section#contact
             .container
                 .row
                     .col-lg-12.text-center
-                        h2 Contact Me
+                        h2 Контакты
                         hr
                 .row
                     .col-lg-8.col-lg-offset-2
-                        | Here are my contacts!
+                        div
+                            span(style="font-weight: bold;")
+                                | Наш адрес: 
+                            span 
+                                | 115478, г. Москва, Каширское шоссе, д.23
+                        div
+                            span(style="font-weight: bold;")
+                                | Телефон: 
+                            span
+                                | 499 324-55-12 
+                        div
+                            span(style="font-weight: bold;")
+                                | Факс: 
+                            span
+                                | 499 324-55-12
+                        div
+                            span(style="font-weight: bold;")
+                                | Часы работы: 
+                            span
+                                | с понедельника по четверг 8:30-15:00 пятница-8:30-14:00
+                        //div
+                            span(style="font-weight: bold;")
+                                | Как добраться-Карта
         // Footer
         footer.text-center
-            iframe(width="100%", height="300", frameborder="0", style="border:0", src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBhosed48fee5J9V-w9rWTq0EIpPdhYntM&q=Moscow+Russia")
+            iframe(width="100%", height="300", frameborder="0", style="border:0", src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBhosed48fee5J9V-w9rWTq0EIpPdhYntM&q=Kashirskoye+sh.,+23,+Moskva,+Russia,+115478")
             .footer-below
                 .container
                     .row
@@ -135,6 +132,7 @@ head
         .scroll-top.page-scroll.visible-xs.visble-sm
             a.btn.btn-primary(href='#page-top')
                 i.fa.fa-chevron-up
+        
         // Portfolio Modals
         #portfolioModal1.portfolio-modal.modal.fade(tabindex='-1', role='dialog', aria-hidden='true')
             .modal-content
@@ -146,7 +144,7 @@ head
                         .col-lg-8.col-lg-offset-2
                             h2 Sculpture Title
                             hr
-                            img.img-responsive.img-centered(src='img/portfolio/sculture1.jpg', alt='')
+                            img.img-responsive.img-centered(src='img/portfolio/sculpture00_rotated.jpg', alt='')
                             p
                                 | Curabitur eu magna a ante ultricies fermentum. Aenean non malesuada odio. Curabitur odio enim, varius sed laoreet et, cursus eget diam. Nulla facilisi. Ut vulputate diam eu suscipit faucibus. Curabitur dapibus, erat ut vehicula maximus, neque ipsum efficitur nunc, sed pretium tortor orci vitae odio. Nullam quis molestie neque.
                             button.btn.btn-default(type='button', data-dismiss='modal')
@@ -163,75 +161,7 @@ head
                             .modal-body
                                 h2 Sculpture Title
                                 hr
-                                img.img-responsive.img-centered(src='img/portfolio/sculture2.jpg', alt='')
-                                p
-                                    | Curabitur eu magna a ante ultricies fermentum. Aenean non malesuada odio. Curabitur odio enim, varius sed laoreet et, cursus eget diam. Nulla facilisi. Ut vulputate diam eu suscipit faucibus. Curabitur dapibus, erat ut vehicula maximus, neque ipsum efficitur nunc, sed pretium tortor orci vitae odio. Nullam quis molestie neque.
-                                button.btn.btn-default(type='button', data-dismiss='modal')
-                                    i.fa.fa-times
-                                    | Close
-        #portfolioModal3.portfolio-modal.modal.fade(tabindex='-1', role='dialog', aria-hidden='true')
-            .modal-content
-                .close-modal(data-dismiss='modal')
-                    .lr
-                        .rl
-                .container
-                    .row
-                        .col-lg-8.col-lg-offset-2
-                            .modal-body
-                                h2 Sculpture Title
-                                hr
-                                img.img-responsive.img-centered(src='img/portfolio/sculture3.jpg', alt='')
-                                p
-                                    | Curabitur eu magna a ante ultricies fermentum. Aenean non malesuada odio. Curabitur odio enim, varius sed laoreet et, cursus eget diam. Nulla facilisi. Ut vulputate diam eu suscipit faucibus. Curabitur dapibus, erat ut vehicula maximus, neque ipsum efficitur nunc, sed pretium tortor orci vitae odio. Nullam quis molestie neque.
-                                button.btn.btn-default(type='button', data-dismiss='modal')
-                                    i.fa.fa-times
-                                    | Close
-        #portfolioModal4.portfolio-modal.modal.fade(tabindex='-1', role='dialog', aria-hidden='true')
-            .modal-content
-                .close-modal(data-dismiss='modal')
-                    .lr
-                        .rl
-                .container
-                    .row
-                        .col-lg-8.col-lg-offset-2
-                            .modal-body
-                                h2 Sculpture Title
-                                hr
-                                img.img-responsive.img-centered(src='img/portfolio/sculture4.jpg', alt='')
-                                p
-                                    | Curabitur eu magna a ante ultricies fermentum. Aenean non malesuada odio. Curabitur odio enim, varius sed laoreet et, cursus eget diam. Nulla facilisi. Ut vulputate diam eu suscipit faucibus. Curabitur dapibus, erat ut vehicula maximus, neque ipsum efficitur nunc, sed pretium tortor orci vitae odio. Nullam quis molestie neque.
-                                button.btn.btn-default(type='button', data-dismiss='modal')
-                                    i.fa.fa-times
-                                    | Close
-        #portfolioModal5.portfolio-modal.modal.fade(tabindex='-1', role='dialog', aria-hidden='true')
-            .modal-content
-                .close-modal(data-dismiss='modal')
-                    .lr
-                        .rl
-                .container
-                    .row
-                        .col-lg-8.col-lg-offset-2
-                            .modal-body
-                                h2 Sculpture Title
-                                hr
-                                img.img-responsive.img-centered(src='img/portfolio/sculture5.jpg', alt='')
-                                p
-                                    | Curabitur eu magna a ante ultricies fermentum. Aenean non malesuada odio. Curabitur odio enim, varius sed laoreet et, cursus eget diam. Nulla facilisi. Ut vulputate diam eu suscipit faucibus. Curabitur dapibus, erat ut vehicula maximus, neque ipsum efficitur nunc, sed pretium tortor orci vitae odio. Nullam quis molestie neque.
-                                button.btn.btn-default(type='button', data-dismiss='modal')
-                                    i.fa.fa-times
-                                    | Close
-        #portfolioModal6.portfolio-modal.modal.fade(tabindex='-1', role='dialog', aria-hidden='true')
-            .modal-content
-                .close-modal(data-dismiss='modal')
-                    .lr
-                        .rl
-                .container
-                    .row
-                        .col-lg-8.col-lg-offset-2
-                            .modal-body
-                                h2 Sculpture Title
-                                hr
-                                img.img-responsive.img-centered(src='img/portfolio/sculture6.jpg', alt='')
+                                img.img-responsive.img-centered(src='img/portfolio/sculpture01_rotated.jpg', alt='')
                                 p
                                     | Curabitur eu magna a ante ultricies fermentum. Aenean non malesuada odio. Curabitur odio enim, varius sed laoreet et, cursus eget diam. Nulla facilisi. Ut vulputate diam eu suscipit faucibus. Curabitur dapibus, erat ut vehicula maximus, neque ipsum efficitur nunc, sed pretium tortor orci vitae odio. Nullam quis molestie neque.
                                 button.btn.btn-default(type='button', data-dismiss='modal')

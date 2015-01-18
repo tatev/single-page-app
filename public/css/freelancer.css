@@ -6,7 +6,7 @@
 
 body {
     overflow-x: hidden;
-    color: #b0b0b0;
+    color: #7f8c8d;
 }
 
 p {
@@ -32,7 +32,6 @@ h3,
 h4,
 h5,
 h6 {
-    text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
 }
@@ -82,8 +81,8 @@ hr.star-primary:after {
 
 header {
     text-align: center;
-    color: #fff;
-    background: #eaeaea;
+    color: #7f8c8d;
+    background: #ecf0f1;
 }
 
 header .container {
@@ -111,8 +110,8 @@ header .intro-text .skills {
 
 @media(min-width:768px) {
     header .container {
-        padding-top: 200px;
-        padding-bottom: 100px;
+        padding-top: 180px;
+        padding-bottom: 70px;
     }
 
     header .intro-text .name {
@@ -149,7 +148,6 @@ header .intro-text .skills {
 }
 
 .navbar {
-    text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
 }
@@ -172,7 +170,7 @@ header .intro-text .skills {
 }
 
 section {
-    padding: 100px 0;
+    padding: 50px 0;
 }
 
 section h2 {
@@ -181,8 +179,8 @@ section h2 {
 }
 
 section.success {
-    color: #fff;
-    background: #eaeaea;
+    color: #7f8c8d;
+    background: #ecf0f1;
 }
 
 @media(max-width:767px) {
@@ -212,7 +210,7 @@ section.success {
     width: 100%;
     height: 100%;
     opacity: 0;
-    background: rgba(171, 173, 172, 0.9);
+    background: rgba(127, 140, 141,0.9);
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
@@ -345,7 +343,7 @@ footer .footer-col {
 
 footer .footer-below {
     padding: 25px 0;
-    background-color: #b0b0b0;
+    background-color: #1abc9c;
 }
 
 .btn-social {
@@ -451,24 +449,24 @@ footer .footer-below {
 }
 
 .navbar-default {
-    background-color: #b0b0b0;
+    background-color: #1abc9c;
 }
 
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
-    color: #a0a1a3;
+    color: #fff;
     background-color: transparent;
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-    color: #a0a1a3;
+    color: #16a085;
     background-color: transparent;
 }
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
     color: #ffffff;
-    background-color: #a0a1a3;
+    background-color: #16a085;
 }
 
 .photo {
